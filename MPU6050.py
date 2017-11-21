@@ -8,9 +8,6 @@ import subprocess
 import sys
 import os
 
-##gyro = []
-##accelero = []
-
 class MPU6050:
     try:
         def MPU6050():
@@ -22,8 +19,6 @@ class MPU6050:
             power_mgmt_2 = 0
             gyro_xout, gyro_yout, gyro_zout = 0
             accel_xout, accel_yout, accel_zout = 0
-##            gyro = []
-##            accelero = []
             adr = 0
             
         def init(self):
